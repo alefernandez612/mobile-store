@@ -1,22 +1,15 @@
-/* App.css */
-/* Header styles */
 .header {
   background: linear-gradient(135deg, #3a3a3a, #1c1c1c);
-  /* Degradado de colores modernos */
   color: white;
   padding: 1.5rem 2rem;
-  /* Más padding para un header espacioso */
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-  /* Sombra para darle profundidad */
   border-bottom: 2px solid #444;
-  /* Línea de separación sutil */
   position: sticky;
   top: 0;
   z-index: 1000;
-  /* Para mantenerlo siempre al frente */
 }
 
 .header h1 {
@@ -36,14 +29,12 @@
 
 .header h1 a:hover {
   color: #f39c12;
-  /* Efecto hover dorado */
 }
 
 .header h1 a span {
   font-size: 1.2rem;
   font-weight: 400;
   color: #f39c12;
-  /* Nombre de la tienda en un color dorado */
   margin-left: 5px;
 }
 
@@ -51,7 +42,7 @@
   margin-top: 0.5rem;
   display: block;
   right: 2rem;
-  transform: translateX(80%);
+  transform: translateX(89%);
 }
 
 .product-item {
@@ -63,7 +54,7 @@
 
 .product-item img {
   width: 100%;
-  height: auto;
+  height: 400px;
 }
 
 .product-list {
